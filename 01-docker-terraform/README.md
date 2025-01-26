@@ -8,12 +8,12 @@ In this homework we'll prepare the environment and practice Docker and SQL.
 
 Download the Python `3.12.8` image from Docker Hub:
 ```bash
-`docker pull python:3.12.8 `
+docker pull python:3.12.8 
 ```
 
 Run docker with the `python:3.12.8` image in an interactive mode, use the entrypoint bash:
 ```bash
-`docker run -it --entrypoint=bash python:3.12.8`
+docker run -it --entrypoint=bash python:3.12.8
 ```
 
 To check the version of pip inside the container, run the following command after having started the container with bash:
@@ -161,7 +161,7 @@ SELECT
   COUNT(CASE WHEN trip_distance > 1 AND trip_distance <= 3 THEN 1 END) AS trip_count_2,
   COUNT(CASE WHEN trip_distance > 3 AND trip_distance <= 7 THEN 1 END) AS trip_count_3,
   COUNT(CASE WHEN trip_distance > 7 AND trip_distance <= 10 THEN 1 END) AS trip_count_4,
-  COUNT(CASE WHEN trip_distance >= 5 THEN 1 END) AS trip_count_5
+  COUNT(CASE WHEN trip_distance > 10 THEN 1 END) AS trip_count_5
 FROM 
     green_trip_data g
 ```
