@@ -39,7 +39,7 @@ Kestra flows:
 
 2. The rendered value of the variable `file` when the inputs `taxi` is set to `green`, `year` is set to `2020`, and `month` is set to `04` during execution is `green_tripdata_2020-04.csv`.
 
-3. There are 24,6478,499 rows for the `Yellow` Taxi data for all CSV files in the year 2020.
+3. There are 24,648,499 rows for the `Yellow` Taxi data for all CSV files in the year 2020.
 
 4. There are 1,734,051 rows for the `Green` Taxi data for all CSV files in the year 2020.
 
