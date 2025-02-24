@@ -5,6 +5,9 @@ venv/
 .env/
 env/
 
+#Ignore logs 
+logs/
+
 # Local .terraform directories
 **/.terraform/*
 
