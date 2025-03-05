@@ -18,7 +18,7 @@ spark.version
 
 Output is `3.5.4`.
 
-# Q2: Yellow October 2024 
+## Q2: Yellow October 2024 
 Read the October 2024 Yellow into a Spark Dataframe. 
 Repartition the Dataframe to 4 partitions and save it to parquet. 
 
