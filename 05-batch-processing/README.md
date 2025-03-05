@@ -2,7 +2,7 @@
 
 ## Q1: Install Spark and PySpark 
 
-Create a local spark session and execute spark.version.
+Run IPython, create a local spark session and execute spark.version.
 
 ```python
 import pyspark
